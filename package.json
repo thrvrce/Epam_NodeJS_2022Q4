@@ -4,7 +4,8 @@
   "description": "Node JS study project ",
   "main": "index.js",
   "scripts": {
-    "task_1.1": "nodemon ./task_1.1/index.js"
+    "task_1.1": "nodemon ./task_1.1/index.js",
+    "task_1.2": "nodemon ./task_1.2/index.js"
   },
   "author": "@thrvrce",
   "license": "ISC",
