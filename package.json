@@ -1,0 +1,17 @@
+{
+  "name": "epam_nodejs_2022q4",
+  "version": "1.0.0",
+  "description": "Node JS study project ",
+  "main": "index.js",
+  "scripts": {
+    "task_1.1": "nodemon ./task_1.1/index.js"
+  },
+  "author": "@thrvrce",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
