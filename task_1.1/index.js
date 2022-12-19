@@ -1,5 +1,5 @@
-const { openStdin, stdout } = require('process');
-const {pipeline, Transform} = require('stream');
+import  { openStdin, stdout } from 'process';
+import {pipeline, Transform} from 'stream';
 
 class RevertStringTransformStream extends Transform {
   _transform(chunk, encoding, callback) {

@@ -4,12 +4,18 @@
   "description": "Node JS study project ",
   "main": "index.js",
   "scripts": {
-    "task_1.1": "nodemon ./task_1.1/index.js",
-    "task_1.2": "nodemon ./task_1.2/index.js"
+    "babel-node": "babel-node ",
+    "nodemon-babel": "nodemon --exec npm run babel-node",
+    "start:task_1.1": "npm run nodemon-babel -- ./task_1.1/index.js",
+    "start:task_1.2": "npm run nodemon-babel -- ./task_1.2/index.js"
   },
   "author": "@thrvrce",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.20"
   },
   "dependencies": {

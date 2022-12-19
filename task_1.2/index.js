@@ -1,7 +1,7 @@
-const readLine = require('node:readline')
-const {createReadStream, createWriteStream} = require('fs')
-const csv=require('csvtojson')
-const path = require('path')
+import readLine from 'node:readline'
+import {createReadStream, createWriteStream} from 'fs'
+import csv from 'csvtojson'
+import path from 'path'
 
 const getReadableStreamFromFile = () => {
   try {
